@@ -1,0 +1,15 @@
+<div class="lastlink">
+	<div class="lastlink-block mLink">
+		<h4>Last link</h4>
+		<div class="lastlink-hide" ng-hide="vm.hide">
+			<a href="{{vm.link.url}}" class="link-url" target="_blank">{{vm.link.title}}</a>
+		</div>
+	</div>
+
+	<div class="lastlink-block mTag">
+		<h4 lastlink-lasttag>Last tag</h4>
+		<div class="lastlink-hide" ng-hide="vm.hide">
+			<tag tag="{{vm.link.tag}}"></tag>
+		</div>
+	</div>
+</div>

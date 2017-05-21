@@ -1,0 +1,26 @@
+
+<div class="addlinkform">
+
+	<div class="addlinkform-block">
+		<input type="text" ng-model="vm.url" placeholder="url" class="addlinkform-field"></input>
+	</div>
+
+
+	<div class="addlinkform-block">
+		<textarea ng-model="vm.title" placeholder="title" class="addlinkform-field mTitle"></textarea>
+	</div>
+
+	<div class="addlinkform-block">
+		<input type="text" ng-model="vm.tag" placeholder="tag" class="addlinkform-field mTag"></input>
+	</div>
+
+
+	<div class="addlinkform-block">
+		<input type="button" class="btn btn-default" value="Save" ng-click="vm.onSave()" />
+		<input type="button" ng-show="vm.isEditLink" class="btn btn-default addlinkform-button mCancel" value="Cancel" ng-click="vm.onCancel()" />
+		<input type="button" ng-show="vm.isEditLink" class="btn btn-default addlinkform-button mDelete" value="Delete" ng-click="vm.onDelete()" />
+
+	</div>
+
+</div>
+

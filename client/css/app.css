@@ -1,0 +1,32 @@
+body {
+	background-color: #f1f1f1;
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+.container-main {
+	padding-top: 20px;
+	padding-bottom: 200px;
+	background-color: #fff;
+	border-radius: 0 0 20px 20px;
+}
+
+h4 {
+	margin-bottom: 18px;
+	padding: 6px 8px;
+	color: black !important;
+	background-color: #f1f1f1;
+	border-radius: 4px;
+}
+
+.footer {
+	margin: 15px 0 40px 0;
+	font-size: 9px;
+	text-align: center;
+}
+
+

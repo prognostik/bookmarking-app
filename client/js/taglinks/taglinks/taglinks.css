@@ -1,0 +1,30 @@
+.taglinks {
+	margin-bottom: 20px;
+}
+
+.taglinks-header {
+	padding-bottom: 10px;
+	font-size: 20px;
+	border-bottom: 2px solid #ddd;
+}
+
+.taglinks-header-field {
+	height: 34px;
+	padding: 0 2px;
+}
+
+.taglinks-controls {
+	padding-right: 20px;
+	text-align: right;
+}
+
+.taglinks-delete {
+	margin-left: 15px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.taglinks-button {
+	vertical-align: bottom;
+}
+

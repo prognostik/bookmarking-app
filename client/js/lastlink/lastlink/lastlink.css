@@ -1,0 +1,34 @@
+.lastlink {
+
+}
+
+.lastlink-block.mLink {
+	height: 120px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+	.lastlink-block.mLink {
+		height: 100px;
+	}
+}
+
+.lastlink-block.mTag {
+	height: 100px;
+	overflow: hidden;
+}
+
+.lastlink-hide {
+	opacity: 1;
+}
+
+.lastlink-hide.ng-hide {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.lastlink-hide.ng-hide-remove-active {
+	opacity: 1;
+	transition: opacity 1s;
+}
+

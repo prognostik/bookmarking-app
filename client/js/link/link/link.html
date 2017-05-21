@@ -1,0 +1,32 @@
+<div class="link" ng-show="vm.isShowLinkBlock">
+
+	<div ng-show="vm.isShowLink" class="link-table animateShow">
+		<div class="link-row">
+			<div class="link-cell mLink">
+				<span class="link-date" ng-show="vm.isShowDate">{{vm.link.date | date : mediumDate}}</span>
+				<a href="{{vm.link.url}}" class="link-url" target="_blank">{{vm.link.title}}</a>
+			</div>
+			<div class="link-cell mControls">
+<!-- 				<div class="link-control">&Cross;</div> -->
+				<div class="link-control mEdit" ng-click="vm.showForm()">&#x270E;</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div ng-show="vm.isShowForm" class="animateShow">
+		<div class="link-edit">
+			<h4>Edit link</h4>
+			<addlinkform
+				save="vm.save(url, title, tag)"
+				cancel="vm.cancel()"
+				delete="vm.delete()"
+				is-edit-link="vm.isEditLink"
+				url="vm.link.url"
+				title="vm.link.title"
+				tag="vm.link.tag"
+			></addlinkform>
+		</div>
+	</div>
+
+</div>

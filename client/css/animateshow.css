@@ -1,0 +1,19 @@
+/* animate show-hide */
+
+.animateShow.ng-hide-remove {
+	opacity: 0;
+	transition: opacity 0.7s;
+}
+
+.animateShow.ng-hide-remove-active {
+	opacity: 1;
+}
+
+.animateShow.ng-hide-add {
+	opacity: 1;
+	transition: opacity 0.7s;
+}
+
+.animateShow.ng-hide-add-active {
+	opacity: 0;
+}

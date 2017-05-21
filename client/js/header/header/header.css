@@ -1,0 +1,21 @@
+.header {
+	height: 50px;
+	background-color: #85a7dd;
+	border-bottom: 1px solid #000;
+}
+
+.header-logo {
+	margin-top: 8px;
+}
+
+.header-home {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header-home:hover {
+	color: #000;
+	text-decoration: none;
+}
+

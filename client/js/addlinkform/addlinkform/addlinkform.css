@@ -1,0 +1,41 @@
+
+.addlinkform {
+	font-size: 0;
+	line-height: 0; /* remove unwanted empty space below textarea */
+}
+
+.addlinkform-block {
+	margin-bottom: 10px;
+}
+
+/* text fields */
+
+.addlinkform-field {
+ 	width: 85%;
+	height: 34px;
+	padding: 0 2px;
+	font-size: 20px;
+	line-height: 30px;
+	resize: none;
+}
+
+.addlinkform-field.mTitle {
+	height: 68px;
+}
+
+.addlinkform-field.mTag {
+	width: 50%;
+}
+
+/* buttons */
+
+.addlinkform-button.mCancel {
+	margin-left: 15px;
+}
+
+.addlinkform-button.mDelete {
+	float: right;
+}
+
+
+

@@ -1,0 +1,9 @@
+.tag {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.tag-link {
+	font-size: 18px;
+	color: #505050;
+}

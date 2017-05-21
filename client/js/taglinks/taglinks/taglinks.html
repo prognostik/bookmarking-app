@@ -1,0 +1,22 @@
+<div class="taglinks">
+	<div class="taglinks-header">
+		<div class="row">
+			<div class="col-xs-8">
+				<span ng-show="vm.isShowTag" class="animateShow">{{vm.tag}}</span>
+
+				<div ng-show="vm.isShowForm" class="animateShow">
+					<input type="text" ng-model="vm.tag" class="taglinks-header-field"></input>
+
+					<button ng-click="vm.edit()" class="btn taglinks-button">Save</button>
+					<button ng-click="vm.cancelEdit()" class="btn btn-default taglinks-button">Cancel</button>
+				</div>
+			</div>
+			<div class="col-xs-4 taglinks-controls" ng-if="vm.isShowControls">
+				<span class="taglinks-delete" ng-click="vm.showEditForm()">edit</span>
+				<span class="taglinks-delete" ng-click="vm.delete()">delete</span>
+			</div>
+		</div>
+	</div>
+
+	<links tag="{{vm.tag}}"></links>
+</div>
